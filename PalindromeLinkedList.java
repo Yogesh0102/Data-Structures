@@ -75,7 +75,7 @@ public class PalindromeLinkedList
 		Scanner sc=new Scanner(System.in);
 		PalindromeLinkedList li1=new PalindromeLinkedList();
 		PalindromeLinkedList li2=new PalindromeLinkedList();
-		System.out.print("Enter the number of elements in LinkedList = ");
+		System.out.print("Enter the size of LinkedList = ");
 		int n=sc.nextInt();
 		System.out.print("Enter the elements of LinkedList = ");
 		for(int i=0;i<n;i++)
