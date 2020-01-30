@@ -72,15 +72,15 @@ public class PalindromeLinkedList
 	}
 	public static void main(String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		PalindromeLinkedList li1=new PalindromeLinkedList();
 		PalindromeLinkedList li2=new PalindromeLinkedList();
 		System.out.print("Enter the size of LinkedList = ");
-		int n=sc.nextInt();
+		int n=s.nextInt();
 		System.out.print("Enter the elements of LinkedList = ");
 		for(int i=0;i<n;i++)
 		{
-			int a=sc.nextInt();
+			int a=s.nextInt();
 			li1.insert(li1,a);
 			li2.addBeg(li2,a);
 		}
