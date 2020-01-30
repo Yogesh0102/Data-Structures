@@ -73,18 +73,18 @@ public class PairsInDoublyLinkedList
 	
 	public static void main(String args[])
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		PairsInDoublyLinkedList li=new PairsInDoublyLinkedList();
 		System.out.print("Enter the size of the LinkedList = ");
-		int n=sc.nextInt();
+		int n=s.nextInt();
 		System.out.print("Enter the elements of the LinkedList = ");
 		for(int i=0;i<n;i++)
 		{
-			int a=sc.nextInt();
+			int a=s.nextInt();
 			li.add(a);
 		}
 		System.out.print("Enter the value of sum = ");
-		int m=sc.nextInt();
+		int m=s.nextInt();
 		li.pairs(m);
 	}
 }
